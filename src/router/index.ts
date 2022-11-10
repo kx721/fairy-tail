@@ -1,5 +1,5 @@
 import VueRouter from "vue-router";
-import Home from "../page/index.vue";
+import Home from "../page/Home.vue";
 import team from "../page/TeamPage.vue";
 import User from "../page/UserPage.vue";
 import Search from "../page/searchPage.vue";

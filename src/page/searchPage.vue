@@ -8,15 +8,11 @@
       @cancel="onCancel"
     />
   </form>
-  <van-tag :show="show" closeable size="medium" type="primary" @close="close">
-    标签
-  </van-tag>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import { Toast } from "vant";
-
 const value = ref("");
 const onSearch = (val) => Toast(val);
 const onCancel = () => Toast("取消");

@@ -1,6 +1,9 @@
 <template>
-  <div>队伍</div>
+  <search-result-page></search-result-page>
 </template>
 
-<script></script>
+<script setup lang="ts">
+import { ref } from "vue";
+import searchResultPage from "./SearchResultPage.vue";
+</script>
 <style scoped></style>
